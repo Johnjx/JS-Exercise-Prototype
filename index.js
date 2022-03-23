@@ -148,10 +148,12 @@ Baby.prototype.play = function () {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - When you call this in a context not enclosed inside an object, you will receive the global scope/ window back.
+  2. Implicit Binding - When you use dot notation to call a method, the preceding object takes on the context of this. 
+  3. New Binding - When you create an instance of an object through a constructor function you need to use the keyword 'new' to let your
+  program know that the context of this will include the contents of the parent constructor. 
+  4. Explicit Binding - Linking different objects together through the use of .bind, .call, or .apply, in order to pass the context of this
+  where it is needed.
 */
 
 
